@@ -8,7 +8,7 @@ public class VariablesScanners {
         Problem #1
         System.out.println("What is your name?");
         String input = userInput.nextLine();
-        System.out.println("Hello s" + input + "!");
+        System.out.println("Hello " + input + "!");
          */
 
         /*
