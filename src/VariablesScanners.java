@@ -48,5 +48,15 @@ public class VariablesScanners {
         double grade4 = userInput.nextDouble();
         System.out.println("Your average is: " + ((grade1 +grade2 +grade3 + grade4)/4));
          */
+
+        //Challenge
+        /*
+        Scanner userInput2 = new Scanner(System.in);
+        System.out.println("What is your age?");
+        int age = userInput.nextInt();
+        System.out.println("What is your name?");
+        String name = userInput2.nextLine();
+        System.out.println("Hello " + name + ", " + age +" is a good age to be!");
+         */
     }
 }
