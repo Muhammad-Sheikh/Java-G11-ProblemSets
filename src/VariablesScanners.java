@@ -1,10 +1,18 @@
+import java.awt.desktop.SystemSleepEvent;
 import java.util.Scanner;
 public class VariablesScanners {
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
+        //VariablesScanners();
+        mathInputs();
+    }
+
+    static void VariablesScanners()
+    {
         Scanner userInput = new Scanner(System.in);
 
         /*
-        Problem #1
+        //Problem #1
         System.out.println("What is your name?");
         String input = userInput.nextLine();
         System.out.println("Hello " + input + "!");
@@ -20,7 +28,6 @@ public class VariablesScanners {
         leastFav = userInput.nextLine();
         System.out.println("I love " + fav + "!" + " You're right, " +  leastFav + " is disgusting!");
          */
-
 
         /*
         //Problem #3
@@ -58,5 +65,34 @@ public class VariablesScanners {
         String name = userInput2.nextLine();
         System.out.println("Hello " + name + ", " + age +" is a good age to be!");
          */
+    }
+
+    static void mathInputs()
+    {
+        Scanner userInput = new Scanner(System.in);
+
+        /*
+        //Problem 1
+        int num1, num2;
+        System.out.println("Enter your first number:");
+        num1 = userInput.nextInt();
+        System.out.println("Enter your first number:");
+        num2 = userInput.nextInt();
+        System.out.println("The sum is: " + (num1+num2));
+         */
+
+        /*
+        //Problem 2
+        int base, height;
+        System.out.println("Whats the base of your triangle?");
+        base = userInput.nextInt();
+        System.out.println("Whats the height of your triangle?");
+        height = userInput.nextInt();
+        System.out.println("The area of your triangle is " + ((base*height)/2));
+         */
+
+
+
+
     }
 }
