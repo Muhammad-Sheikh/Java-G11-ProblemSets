@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d0ee05a-4be7-49ea-a5ce-82bebdd6f6ea" name="Changes" comment="cleanup in output">
+    <list default="true" id="1d0ee05a-4be7-49ea-a5ce-82bebdd6f6ea" name="Changes" comment="finished">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/VariablesScanners.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VariablesScanners.java" afterDir="false" />
     </list>
@@ -61,13 +61,21 @@
       <option name="project" value="LOCAL" />
       <updated>1677515060823</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added challenge">
+      <created>1677594049050</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1677594049050</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="finished 5 problems with variables and scanners" />
     <MESSAGE value="cleanup in output" />
-    <option name="LAST_COMMIT_MESSAGE" value="cleanup in output" />
+    <MESSAGE value="added challenge" />
+    <option name="LAST_COMMIT_MESSAGE" value="added challenge" />
   </component>
 </project>

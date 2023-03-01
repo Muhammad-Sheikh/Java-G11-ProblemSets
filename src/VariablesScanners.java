@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class VariablesScanners {
     public static void main(String[] args) {
         Scanner userInput = new Scanner(System.in);
@@ -19,8 +18,9 @@ public class VariablesScanners {
         fav = userInput.nextLine();
         System.out.println("Whats your least favourite food?");
         leastFav = userInput.nextLine();
-        System.out.println("I love " + fav + "!" + " You're right, " +  leastFav + "is disgusting!");
+        System.out.println("I love " + fav + "!" + " You're right, " +  leastFav + " is disgusting!");
          */
+
 
         /*
         //Problem #3
