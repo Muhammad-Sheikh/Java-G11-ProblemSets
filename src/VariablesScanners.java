@@ -1,10 +1,13 @@
 import java.awt.desktop.SystemSleepEvent;
+import java.text.DecimalFormat;
+import java.util.ArrayList;
 import java.util.Scanner;
 public class VariablesScanners {
     public static void main(String[] args)
     {
         //VariablesScanners();
         mathInputs();
+        //randOperations();
     }
 
     static void VariablesScanners()
@@ -91,8 +94,65 @@ public class VariablesScanners {
         System.out.println("The area of your triangle is " + ((base*height)/2));
          */
 
+        /*
+        //Problem 4
+        ArrayList<Integer> marks = new ArrayList<Integer>();
+        do {
+            System.out.println("Would you like to add marks? (Y or N)");
+            if(userInput.next().startsWith("Y"))
+            {
+                System.out.println("Please enter the mark.");
+                marks.add(userInput.nextInt());
+            } else {
+                break;
+            }
+        }while (true);
+        System.out.println("Enter your course code: ");
+        String courseCode = userInput.next();
+        System.out.println("Enter your name: ");
+        String name = userInput.next();
+        System.out.println(name + " , your " + courseCode + " average is " + (Math.round((marks.get(0) + marks.get(1) + marks.get(2))/4)));
+         */
+
+        /*
+        //Problem 5
+        System.out.println("Enter the radius of the sphere: ");
+        double radius = userInput.nextDouble();
+        double volume = ((4/3)*(Math.PI)*(Math.pow(radius, 2)));
+        System.out.println("Your volume is: " + volume);
+         */
+
+
+        //Problem 6
+                ArrayList<Integer> marks = new ArrayList<Integer>();
+        do {
+            System.out.println("Would you like to add marks? (Y or N)");
+            if(userInput.next().startsWith("Y"))
+            {
+                System.out.println("Please enter the mark.");
+                marks.add(userInput.nextInt());
+            } else {
+                break;
+            }
+        }while (true);
+        System.out.println("Enter your course code: ");
+        String courseCode = userInput.next();
+        System.out.println("Enter your name: ");
+        String name = userInput.next();
+        DecimalFormat df = new DecimalFormat("##.##")
+        System.out.println(name + " , your " + courseCode + " average is " + (Math.round((marks.get(0) + marks.get(1) + marks.get(2))/4)));
+
+
+
 
 
 
     }
+
+    static void randOperations()
+    {
+
+
+    }
 }
+
