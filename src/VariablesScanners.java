@@ -1,6 +1,4 @@
-import java.awt.desktop.SystemSleepEvent;
-import java.text.DecimalFormat;
-import java.util.ArrayList;
+//TODO Problem 7 for math operations & Rand operations
 import java.util.Scanner;
 public class VariablesScanners {
     public static void main(String[] args)
@@ -99,7 +97,7 @@ public class VariablesScanners {
         ArrayList<Integer> marks = new ArrayList<Integer>();
         do {
             System.out.println("Would you like to add marks? (Y or N)");
-            if(userInput.next().startsWith("Y"))
+            if(userInput.next().startsWith("y"))
             {
                 System.out.println("Please enter the mark.");
                 marks.add(userInput.nextInt());
@@ -113,6 +111,7 @@ public class VariablesScanners {
         String name = userInput.next();
         System.out.println(name + " , your " + courseCode + " average is " + (Math.round((marks.get(0) + marks.get(1) + marks.get(2))/4)));
          */
+
 
         /*
         //Problem 5
@@ -122,15 +121,15 @@ public class VariablesScanners {
         System.out.println("Your volume is: " + volume);
          */
 
-
+        /*
         //Problem 6
-                ArrayList<Integer> marks = new ArrayList<Integer>();
+        ArrayList<Double> marks = new ArrayList<Double>();
         do {
             System.out.println("Would you like to add marks? (Y or N)");
-            if(userInput.next().startsWith("Y"))
+            if(userInput.next().startsWith("y"))
             {
                 System.out.println("Please enter the mark.");
-                marks.add(userInput.nextInt());
+                marks.add(userInput.nextDouble());
             } else {
                 break;
             }
@@ -139,9 +138,25 @@ public class VariablesScanners {
         String courseCode = userInput.next();
         System.out.println("Enter your name: ");
         String name = userInput.next();
-        DecimalFormat df = new DecimalFormat("##.##")
-        System.out.println(name + " , your " + courseCode + " average is " + (Math.round((marks.get(0) + marks.get(1) + marks.get(2))/4)));
+        System.out.println(name + " , your " + courseCode + " average is " + Math.round((((marks.get(0) + marks.get(1) + marks.get(2))/4) *100) /100));
+         */
 
+
+        //Problem 7
+        System.out.println("Enter the time in minutes: ");
+        int minInput = userInput.nextInt();
+        System.out.println("Your hours is: " + (minInput / 60) + "." + (minInput % 60));
+
+
+        /*
+        //Problem 8
+        System.out.println("Enter your max number:");
+        int max = userInput.nextInt();
+        System.out.println("Enter your min number:");
+        int min = userInput.nextInt();
+        double randOut = (int)(Math.random()*(max-min+1))+min;
+        System.out.println(randOut);\
+         */
 
 
 
