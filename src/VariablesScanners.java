@@ -4,8 +4,9 @@ public class VariablesScanners {
     public static void main(String[] args)
     {
         //VariablesScanners();
-        mathInputs();
+        //mathInputs();
         //randOperations();
+        advancedMath();
     }
 
     static void VariablesScanners()
@@ -169,5 +170,47 @@ public class VariablesScanners {
 
 
     }
+
+
+    static void p(String x)
+    {
+        System.out.println(x);
+    }
+
+
+    static void advancedMath()
+    {
+        /*
+        //Problem 2
+        Scanner userInput = new Scanner(System.in);
+        p("How many students do you have?");
+        int students = userInput.nextInt();
+        p("How many apples do you have?");
+        int apples = userInput.nextInt();
+        p("There will be " + (apples % students) + " apples left");
+
+        System.out.println(((double) students / apples)*4);
+
+
+        /*
+        //Problem 1
+        Scanner input = new Scanner(System.in);
+        int userInput;
+
+
+        System.out.print("Enter an integer: ");
+        userInput = input.nextInt();
+        int prevNum = (userInput - 1);
+        int afterNum = (userInput + 1);
+
+        System.out.println("The result is: " + prevNum + ", " + userInput + ", " + afterNum);
+        */
+
+        //Problem 4
+
+
+
+    }
+
 }
 
