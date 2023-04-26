@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d0ee05a-4be7-49ea-a5ce-82bebdd6f6ea" name="Changes" comment="Added char to array function and added password checker" />
+    <list default="true" id="1d0ee05a-4be7-49ea-a5ce-82bebdd6f6ea" name="Changes" comment="deleted master, now using main branch" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,7 +47,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "settings.editor.selected.configurable": "preferences.sourceCode"
   }
 }]]></component>
@@ -137,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682515870361</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="deleted master, now using main branch">
+      <created>1682516663458</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1682516663458</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -161,6 +168,7 @@
     <MESSAGE value="added more if statement work" />
     <MESSAGE value="Added string methods, pig latin &amp; letter replacing" />
     <MESSAGE value="Added char to array function and added password checker" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added char to array function and added password checker" />
+    <MESSAGE value="deleted master, now using main branch" />
+    <option name="LAST_COMMIT_MESSAGE" value="deleted master, now using main branch" />
   </component>
 </project>
