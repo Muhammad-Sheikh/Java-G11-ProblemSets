@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1d0ee05a-4be7-49ea-a5ce-82bebdd6f6ea" name="Changes" comment="Added char to array function and added password checker">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/G11COMPSCIWORK.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VariablesScanners.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="636fff5d-1246-4816-a1bc-6c59cc11efe4" />
+        <option name="url" value="https://github.com/Muhammad-Sheikh/Java-G11-ProblemSets.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2MKNQQlReqNkIxKhUfg8P5X4BPO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1d0ee05a-4be7-49ea-a5ce-82bebdd6f6ea" name="Changes" comment="" />
+      <created>1677512298390</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1677512298390</updated>
+    </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1677513446559</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1677513446559</updated>
+    </task>
+    <task id="LOCAL-00002" summary="finished 5 problems with variables and scanners">
+      <created>1677514820243</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1677514820243</updated>
+    </task>
+    <task id="LOCAL-00003" summary="cleanup in output">
+      <created>1677515060823</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1677515060823</updated>
+    </task>
+    <task id="LOCAL-00004" summary="added challenge">
+      <created>1677594049050</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1677594049050</updated>
+    </task>
+    <task id="LOCAL-00005" summary="intial repo commit">
+      <created>1677687372369</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1677687372369</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added if statement challenge">
+      <created>1679321252015</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1679321252015</updated>
+    </task>
+    <task id="LOCAL-00007" summary="added more if statement work">
+      <created>1679494441684</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1679494441684</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Added string methods, pig latin &amp; letter replacing">
+      <created>1681825228258</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1681825228258</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <MESSAGE value="finished 5 problems with variables and scanners" />
+    <MESSAGE value="cleanup in output" />
+    <MESSAGE value="added challenge" />
+    <MESSAGE value="intial repo commit" />
+    <MESSAGE value="Added if statement challenge" />
+    <MESSAGE value="added more if statement work" />
+    <MESSAGE value="Added string methods, pig latin &amp; letter replacing" />
+    <MESSAGE value="Added char to array function and added password checker" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added char to array function and added password checker" />
+  </component>
+</project>
