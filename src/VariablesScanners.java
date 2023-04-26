@@ -495,9 +495,9 @@ public class VariablesScanners {
 
         if(duplicateChar)
         {
-            p("Bad Password");
+            p("This is a bad password");
         }else {
-            p("Good Password");
+            p("This is  a good Password");
         }
 
     }
