@@ -473,7 +473,7 @@ public class VariablesScanners {
         boolean duplicateChar = false;
         int timesAppeared = 0;
 
-        p("Enter your password:");
+        p("Enter your password: ");
         String password = userInput.next();
         char[] passArray = password.toCharArray();
 
