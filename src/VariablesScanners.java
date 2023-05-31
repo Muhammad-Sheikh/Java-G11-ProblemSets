@@ -1,6 +1,7 @@
 //
 import java.awt.*;
 import java.text.DecimalFormat;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
 import java.util.Random;
@@ -14,7 +15,9 @@ public class VariablesScanners {
        //angleOfClock();
         //ifStatements();
         //stringObjects();
-        chartoArray();
+        //chartoArray();
+        //gmailCheck();
+        nameChecker();
     }
     //useful public functions
     static void p(String x)
@@ -23,7 +26,7 @@ public class VariablesScanners {
     }
 
     static void VariablesScanners()
-    {
+      {
         Scanner userInput = new Scanner(System.in);
 
         /*
@@ -499,7 +502,69 @@ public class VariablesScanners {
         }else {
             p("This is  a good Password");
         }
+    }
 
+    /*
+    static void replaceNum()
+    {
+        Scanner userInput = new Scanner(System.in);
+        System.out.println("Enter an Input!");
+        String input;
+        input = userInput.nextLine();
+
+        ArrayList<String> inputList = new ArrayList<String>(Arrays.asList(input.split("")));
+
+       for (int i = 0; i < inputList.size(); i++)
+       {
+           if(inputList.get(i).equals("1"))
+           {
+               inputList.set(i,"one");
+           }
+       }
+
+        String finalOutput = "";
+        for(String c:inputList){
+            finalOutput = finalOutput + c;
+        }
+
+       System.out.println(finalOutput);
+    }
+         */
+
+    static  void gmailCheck()
+    {
+        Scanner userInput = new Scanner(System.in);
+        System.out.println("Enter an Input!");
+        String input;
+        input = userInput.nextLine();
+
+        if(input.contains("attach") || input.contains("attached"))
+        {
+            System.out.println("don’t forget to attach your file");
+        } else
+        {
+            System.out.println("Sent!");
+        }
+    }
+
+    static void nameChecker()
+    {
+        Scanner userInput = new Scanner(System.in);
+        System.out.println("Enter an Input!");
+        String input;
+        input = userInput.nextLine();
+
+
+       char firstNameLetter = input.charAt(0);
+       String stringFirstLetter = String.valueOf(firstNameLetter);
+       input = input.replaceFirst(stringFirstLetter, stringFirstLetter.toUpperCase());
+
+
+      char lastNameNumber =  input.charAt(input.indexOf(" ") + 1);
+      String stringlastLetter = String.valueOf(lastNameNumber);
+      input = input.replaceFirst(stringlastLetter, stringlastLetter.toUpperCase());
+
+    System.out.println(input);
     }
 
 }
